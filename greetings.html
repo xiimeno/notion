@@ -40,7 +40,7 @@ body{
     var today = new Date();
     var hrs = today.getHours();
     var dayOfWeek = weekday[today.getDay()];
-    var date = dayOfWeek+" " + today.getDate() + "/" +(today.getMonth()+1) +'/'+today.getFullYear()  ;
+    var date = dayOfWeek+" " + today.getDate() + "/" +(today.getMonth()+1) +'/'+today.getFullYear() + " da" ;
 
     var greet;
 
@@ -52,6 +52,6 @@ body{
         greet = 'gabon  ';
 
     document.getElementById('lbl').innerHTML =
-        greet+= "♡" +`<div id="date"> It's ${date}</div>`;
+        greet+= "♡" +`<div id="date"> Gaur ${date}</div>`;
 </script> 
 </html>
